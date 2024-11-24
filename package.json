@@ -1,0 +1,22 @@
+{
+  "name": "03_js_clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parasss19/JS-Project3.git"
+  },
+  "author": "Paras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parasss19/JS-Project3/issues"
+  },
+  "homepage": "https://github.com/parasss19/JS-Project3#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
