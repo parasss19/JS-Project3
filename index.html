@@ -6,7 +6,16 @@
     <link rel="stylesheet" href="output.css">
     <title>Project 3- Clock</title>
 </head>
-<body>
+<body class="m-0 p-0 box-border bg-no-repeat bg-cover backdrop-blur-sm" style="background-image: url(bg-img.jpg);" >
     
+    <div id="container" class="h-screen flex justify-center items-center">
+        <div class="clock w-[30rem] h-[30rem] border-[10px] border-lime-950 rounded-full">
+          <div class="clock-face relative w-full h-full -translate-x-[3px]">
+            <div class="hand hour-hand    h-[6px] w-[50%] bg-white absolute top-[50%]"></div>
+            <div class="hand min-hand     h-[6px] w-[50%] bg-white absolute top-[50%]"></div>
+            <div class="hand second-hand  h-[6px] w-[50%] bg-white absolute top-[50%]"></div>
+          </div>
+        </div>
+    </div>
 </body>
 </html>
